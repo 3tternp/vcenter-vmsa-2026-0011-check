@@ -11,7 +11,7 @@
 ![vmsa](https://img.shields.io/badge/Broadcom-VMSA--2026--0011-orange)
 ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
-By **Astra** ([@3tternp](https://github.com/3tternp)) · Vairav CSOC · Advisory `VTS-SA-2026-1124-VCENTER-VMSA-0011`
+By **Astra** ([@3tternp](https://github.com/3tternp))
 
 </div>
 
