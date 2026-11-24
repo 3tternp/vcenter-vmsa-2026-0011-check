@@ -1,0 +1,13 @@
+{
+  "_help": "Minimum FIXED build number per branch. Key = major.minor.patch as printed by the script. Value must come from Broadcom (KB 326316 / the VMSA). 'vmsa_0009' = fix for CVE-2026-123890 (19 Nov 2026). 'vmsa_0011' = fix for CVE-2026-123903 to -123909 (24 Nov 2026).",
+  "_source_note": "8.0.3 build 25934264 (8.0 U3m) and 9.0.2.0200 / 9.1.1.0200 builds are from a third-party build table (canberkki.com), NOT from Broadcom: confirm them. 9.0.2.0300 and 9.1.2 builds were not found: set them yourself.",
+  "vcenter": {
+    "8.0.3": { "vmsa_0009": 25934264, "vmsa_0011": 25934264 },
+    "9.0.2": { "vmsa_0009": 25901331, "vmsa_0011": null },
+    "9.1.1": { "vmsa_0009": 25901347, "vmsa_0011": null },
+    "9.1.2": { "vmsa_0009": 0, "vmsa_0011": 0 }
+  },
+  "esxi": {
+    "_help": "Optional. ESX build of 8.0 U3m / 9.0.2 express patch / 9.1.2, for CVE-2026-123910 to -123916. Example: \"8.0.3\": 25XXXXXX"
+  }
+}
